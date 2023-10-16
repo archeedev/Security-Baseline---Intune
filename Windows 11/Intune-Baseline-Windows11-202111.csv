@@ -1,0 +1,293 @@
+Category;Policy name;Property;Value
+Above Lock;Voice activate apps from locked screen;Baseline default;Disabled
+Above Lock;Block display of toast notifications;Baseline default;Yes
+App Runtime;Microsoft accounts optional for Microsoft store apps;Baseline default;Enabled
+Application Management;Block app installations with elevated privileges;Baseline default;Yes
+Application Management;Block user control over installations;Baseline default;Yes
+Application Management;Block game DVR (desktop only);Baseline default;Yes
+Audit;Account Logon Audit Credential Validation (Device);Baseline default;Success and Failure
+Audit;Account Logon Audit Kerberos Authentication Service (Device);Baseline default;None
+Audit;Account Logon Logoff Audit Account Lockout (Device);Baseline default;Failure
+Audit;Account Logon Logoff Audit Logon (Device);Baseline default;Success and Failure
+Audit;Account Logon Logoff Audit Group Membership (Device);Baseline default;Success
+Audit;Audit Other Logon Logoff Events (Device);Baseline default;Success and Failure
+Audit;Audit Special Logon (Device);Baseline default;Success
+Audit;Audit Security Group Management (Device);Baseline default;Success
+Audit;Audit User Account Management (Device);Baseline default;Success and Failure
+Audit;Detailed Tracking Audit PNP Activity (Device);Baseline default;Success
+Audit;Detailed Tracking Audit Process Creation (Device);Baseline default;Success
+Audit;Object Access Audit Detailed File Share (Device);Baseline default;Failure
+Audit;Audit File Share Access (Device);Baseline default;Success and Failure
+Audit;Object Access Audit Other Object Access Events (Device);Baseline default;Success and Failure
+Audit;Object Access Audit Removable Storage (Device);Baseline default;Success and Failure
+Audit;Audit Authentication Policy Change (Device);Baseline default;Success
+Audit;Policy Change Audit MPSSVC Rule Level Policy Change (Device);Baseline default;Success and Failure
+Audit;Policy Change Audit Other Policy Change Events (Device);Baseline default;Failure
+Audit;Audit Changes to Audit Policy (Device);Baseline default;Success
+Audit;Privilege Use Audit Sensitive Privilege Use (Device);Baseline default;Success and Failure
+Audit;System Audit Other System Events (Device);Baseline default;Success and Failure
+Audit;System Audit Security State Change (Device);Baseline default;Success
+Audit;Audit Security System Extension (Device);Baseline default;Success
+Audit;System Audit System Integrity (Device);Baseline default;Success and Failure
+Auto Play;Auto play default auto run behavior;Baseline default;Do not execute
+Auto Play;uto play mode;Baseline default;Disabled
+Auto Play;lock auto play for non-volume devices;Baseline default;Enabled
+BitLocker;BitLocker removable drive policy;Baseline default;Configure
+BitLocker;lock write access to removable data-drives not protected by BitLocker;Baseline default;Yes
+Browser;Block Password Manager;Baseline default;Yes
+Browser;equire SmartScreen for Microsoft Edge Legacy;Baseline default;Yes
+Browser;Block malicious site access;Baseline default;Yes
+Browser;Block unverified file download;Baseline default;Yes
+Browser;Prevent user from overriding certificate errors;Baseline default;Yes
+Connectivity;Configure secure access to UNC paths;Baseline default;Configure Windows to only allow access to the specified UNC paths after fulfilling additional security requirements
+Connectivity;Hardened UNC path list;Baseline default;Not configured by default.
+Connectivity;Block downloading of print drivers over HTTP;Baseline default;Enabled
+Connectivity;Block Internet download for web publishing and online ordering wizards;Baseline default;Enabled
+Credentials Delegation;Remote host delegation of non-exportable credentials;Baseline default;Enabled
+Credentials UI;Enumerate administrators;Baseline default;Disabled
+Data Protection;Block direct memory access;Baseline default;Yes
+Device Guard;Virtualization based security;Baseline default;Enable VBS with secure boot
+Device Guard;Enable virtualization based security;Baseline default;Yes
+Device Guard;Launch system guard;Baseline default;Enabled
+Device Guard;Turn on credential guard;Baseline default;Enable with UEFI lock
+Device Installation;Block hardware device installation by setup classes;Baseline default;Yes
+Device Installation;Remove matching hardware devices;Baseline default;Yes
+Device Installation;Block list;Baseline default;Not configured by default. Manually add one or more Identifiers.
+Device Lock;Require password;Baseline default;Yes
+Device Lock;Required password;Baseline default;Alphanumeric
+Device Lock;Password expiration (days);Baseline default;60
+Device Lock;Password minimum character set count;Baseline default;3
+Device Lock;Prevent reuse of previous passwords;Baseline default;24
+Device Lock;Minimum password length;Baseline default;8
+Device Lock;Number of sign-in failures before wiping device;Baseline default;10
+Device Lock;Block simple passwords;Baseline default;Yes
+Device Lock;Password minimum age in days;Baseline default;1
+Device Lock;Prevent use of camera;Baseline default;Enabled
+Device Lock;Prevent slide show;Baseline default;Enabled
+DMA Guard;Enumeration of external devices incompatible with Kernel DMA Protection;Baseline default;Block all
+Event Log Service;Application log maximum file size in KB;Baseline default;32768
+Event Log Service;System log maximum file size in KB;Baseline default;32768
+Event Log Service;Security log maximum file size in KB;Baseline default;196608
+Experience;Block Windows Spotlight;Baseline default;Yes
+Experience;Block third-party suggestions in Windows Spotlight;Baseline default;Not configured
+Experience;Block consumer specific features;Baseline default;Not configured
+File Explorer;Block data execution prevention;Baseline default;Disabled
+File Explorer;Block heap termination on corruption;Baseline default;Disabled
+Firewall;Firewall profile domain;Baseline default;Configure
+Firewall;Inbound connections blocked;Baseline default;Yes
+Firewall;Outbound connections required;Baseline default;Yes
+Firewall;Inbound notifications blocked;Baseline default;Yes
+Firewall;Firewall enabled;Baseline default;Allowed
+Firewall;Firewall profile private;Baseline default;Configure
+Firewall;Inbound connections blocked;Baseline default;Yes
+Firewall;Outbound connections required;Baseline default;Yes
+Firewall;Inbound notifications blocked;Baseline default;Yes
+Firewall;Firewall enabled;Baseline default;Allowed
+Firewall;Firewall profile public;Baseline default;Configure
+Firewall;Inbound connections blocked;Baseline default;Yes
+Firewall;Outbound connections required;Baseline default;Yes
+Firewall;Inbound notifications blocked;Baseline default;Yes
+Firewall;Firewall enabled;Baseline default;Allowed
+Firewall;Connection security rules from group policy not merged;Baseline default;Yes
+Firewall;Policy rules from group policy not merged;Baseline default;Yes
+Internet Explorer;Internet Explorer encryption support;Baseline default;Two items: TLS v1.1 and TLS v1.2
+Internet Explorer;Internet Explorer prevent managing smart screen filter;Baseline default;Enable
+Internet Explorer;Internet Explorer restricted zone script Active X controls marked safe for scripting;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone file downloads;Baseline default;Disable
+Internet Explorer;Internet Explorer certificate address mismatch warning;Baseline default;Enabled
+Internet Explorer;Internet Explorer enhanced protected mode;Baseline default;Enabled
+Internet Explorer;Internet Explorer fallback to SSL3;Baseline default;No sites
+Internet Explorer;Internet Explorer software when signature is invalid;Baseline default;Disabled
+Internet Explorer;Internet Explorer check server certificate revocation;Baseline default;Enabled
+Internet Explorer;Internet Explorer check signatures on downloaded programs;Baseline default;Enabled
+Internet Explorer;Internet Explorer processes consistent MIME handling;Baseline default;Enable
+Internet Explorer;Internet Explorer bypass smart screen warnings;Baseline default;Disabled
+Internet Explorer;Internet Explorer bypass smart screen warnings about uncommon files;Baseline default;Disable
+Internet Explorer;Internet Explorer crash detection;Baseline default;Disabled
+Internet Explorer;Internet Explorer download enclosures;Baseline default;Disabled
+Internet Explorer;Internet Explorer ignore certificate errors;Baseline default;Disabled
+Internet Explorer;Internet Explorer disable processes in enhanced protected mode;Baseline default;Enabled
+Internet Explorer;Internet Explorer security settings check;Baseline default;Enabled
+Internet Explorer;Internet Explorer Active X controls in protected mode;Baseline default;Disabled
+Internet Explorer;Internet Explorer users adding sites;Baseline default;Disabled
+Internet Explorer;Internet Explorer users changing policies;Baseline default;Disabled
+Internet Explorer;Internet Explorer block outdated Active X controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer include all network paths;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone access to data sources;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone automatic prompt for file downloads;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone copy and paste via script;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone drag and drop or copy and paste files;Baseline default;Disabled.
+Internet Explorer;Internet Explorer internet zone less privileged sites;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone loading of XAML files;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone .NET Framework reliant components;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone allow only approved domains to use ActiveX controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer internet zone allow only approved domains to use tdc ActiveX controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer internet zone scripting of web browser controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone script initiated windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone scriptlets;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone smart screen;Baseline default;Enabled
+Internet Explorer;Internet Explorer internet zone updates to status bar via script;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone user data persistence;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone allow VBscript to run;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone do not run antimalware against ActiveX controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone download signed ActiveX controls;Baseline default;DisableBaseline default: Disable
+Internet Explorer;Internet Explorer internet zone download unsigned ActiveX controls;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone cross site scripting filter;Baseline default;Enabled
+Internet Explorer;Internet Explorer internet zone drag content from different domains across windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone drag content from different domains within windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone protected mode;Baseline default;Enable
+Internet Explorer;Internet Explorer internet zone include local path when uploading files to server;Baseline default;Disabled
+Internet Explorer;Internet Explorer internet zone initialize and script Active X controls not marked as safe;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer internet zone launch applications and files in an iframe;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone logon options;Baseline default;Prompt
+Internet Explorer;Internet Explorer internet zone navigate windows and frames across different domains;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone run .NET Framework reliant components signed with Authenticode;Baseline default;Disable
+Internet Explorer;Internet Explorer internet zone security warning for potentially unsafe files;Baseline default;Prompt
+Internet Explorer;Internet Explorer internet zone popup blocker;Baseline default;Enable
+Internet Explorer;Internet Explorer intranet zone do not run antimalware against Active X controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer intranet zone initialize and script Active X controls not marked as safe;Baseline default;Disable
+Internet Explorer;Internet Explorer intranet zone java permissions;Baseline default;High safety
+Internet Explorer;Internet Explorer local machine zone do not run antimalware against Active X controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer local machine zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer locked down internet zone smart screen;Baseline default;Enabled.
+Internet Explorer;Internet Explorer locked down intranet zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer locked down local machine zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer locked down restricted zone smart screen;Baseline default;Enabled
+Internet Explorer;Internet Explorer locked down restricted zone java permissions;Baseline default;Disable Java
+Internet Explorer;Internet Explorer locked down trusted zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer processes MIME sniffing safety feature;Baseline default;Enable
+Internet Explorer;Internet Explorer processes MK protocol security restriction;Baseline default;Enabled
+Internet Explorer;Internet Explorer processes notification bar;Baseline default;Enabled
+Internet Explorer;Internet Explorer prevent per user installation of Active X controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer processes protection from zone elevation;Baseline default;Enabled
+Internet Explorer;Internet Explorer remove run this time button for outdated Active X controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer processes restrict Active X install;Baseline default;Enabled
+Internet Explorer;Internet Explorer restricted zone access to data sources;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone active scripting;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone automatic prompt for file downloads;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone binary and script behaviors;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone copy and paste via script;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone drag and drop or copy and paste files;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone less privileged sites;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone loading of XAML files;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone meta refresh;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone .NET Framework reliant components;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone allow only approved domains to use Active X controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer restricted zone allow only approved domains to use tdc Active X controls;Baseline default;Enabled
+Internet Explorer;Internet Explorer restricted zone scripting of web browser controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone script initiated windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone scriptlets;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone smart screen;Baseline default;Enabled
+Internet Explorer;Internet Explorer restricted zone updates to status bar via script;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone user data persistence;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone allow vbscript to run;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone do not run antimalware against Active X controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone download signed Active X controls;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone download unsigned Active X controls;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone cross site scripting filter;Baseline default;Enabled
+Internet Explorer;Internet Explorer restricted zone drag content from different domains across windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone drag content from different domains within windows;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone include local path when uploading files to server;Baseline default;Disabled
+Internet Explorer;Internet Explorer restricted zone initialize and script Active X controls not marked as safe;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone java permissions;Baseline default;Disable java
+Internet Explorer;Internet Explorer restricted zone launch applications and files in an iFrame;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone logon options;Baseline default;Anonymous
+Internet Explorer;Internet Explorer restricted zone navigate windows and frames across different domains;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone run Active X controls and plugins;Baseline default;Disable.
+Internet Explorer;Internet Explorer restricted zone run .NET Framework reliant components signed with Authenticode;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone scripting of java applets;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone security warning for potentially unsafe files;Baseline default;Disable
+Internet Explorer;Internet Explorer restricted zone protected mode;Baseline default;Enable
+Internet Explorer;Internet Explorer restricted zone popup blocker;Baseline default;Enable
+Internet Explorer;Internet Explorer processes restrict file download;Baseline default;Enabled
+Internet Explorer;Internet Explorer processes scripted window security restrictions;Baseline default;Enabled
+Internet Explorer;Internet Explorer security zones use only machine settings;Baseline default;Enabled
+Internet Explorer;Internet Explorer use Active X installer service;Baseline default;Enabled
+Internet Explorer;Internet Explorer trusted zone do not run antimalware against Active X controls;Baseline default;Disabled
+Internet Explorer;Internet Explorer trusted zone initialize and script Active X controls not marked as safe;Baseline default;Disable
+Internet Explorer;Internet Explorer trusted zone java permissions;Baseline default;High safety
+Internet Explorer;Internet Explorer auto complete;Baseline default;Disabled
+Local Policies Security Options;Block remote logon with blank password;Baseline default;Yes
+Local Policies Security Options;Minutes of lock screen inactivity until screen saver activates;Baseline default;15
+Local Policies Security Options;Smart card removal behavior;Baseline default;Lock workstation
+Local Policies Security Options;Require client to always digitally sign communications;Baseline default;Yes
+Local Policies Security Options;Prevent clients from sending unencrypted passwords to third party SMB servers;Baseline default;Yes
+Local Policies Security Options;Require server digitally signing communications always;Baseline default;Yes
+Local Policies Security Options;Prevent anonymous enumeration of SAM accounts;Baseline default;Yes
+Local Policies Security Options;Block anonymous enumeration of SAM accounts and shares;Baseline default;Yes
+Local Policies Security Options;Restrict anonymous access to named pipes and shares;Baseline default;Yes
+Local Policies Security Options;Allow remote calls to security accounts manager;Baseline default;"O:BAG:BAD:(A;;RC;;;BA)"
+Local Policies Security Options;Prevent storing LAN manager hash value on next password change;Baseline default;Yes
+Local Policies Security Options;Authentication level;Baseline default;Send NTLMv2 response only. Refuse LM and NTLM
+Local Policies Security Options;Minimum session security for NTLM SSP based clients;Baseline default;Require NTLM V2 128 encryption
+Local Policies Security Options;Minimum session security for NTLM SSP based servers;Baseline default;Require NTLM V2 and 128 bit encryption
+Local Policies Security Options;Administrator elevation prompt behavior;Baseline default;Prompt for consent on the secure desktop
+Local Policies Security Options;Standard user elevation prompt behavior;Baseline default;Automatically deny elevation requests
+Local Policies Security Options;Detect application installations and prompt for elevation;Baseline default;Yes
+Local Policies Security Options;Only allow UI access applications for secure locations;Baseline default;Yes
+Local Policies Security Options;Require admin approval mode for administrators;Baseline default;Yes
+Local Policies Security Options;Use admin approval mode;Baseline default;Yes
+Local Policies Security Options;Virtualize file and registry write failures to per user locations;Baseline default;Yes
+Microsoft Defender;Block Adobe Reader from creating child processes;Baseline default;Enable
+Microsoft Defender;Block Office communication apps launch in a child process;Baseline default;Enable
+Microsoft Defender;Enter how often (0-24 hours) to check for security intelligence updates;Baseline default;4
+Microsoft Defender;Scan type;Baseline default;Quick scan
+Microsoft Defender;Defender schedule scan day;Baseline default;Everyday
+Microsoft Defender;Defender scan start time;Baseline default;Not configured
+Microsoft Defender;Cloud-delivered protection level;Baseline default;Not Configured
+Microsoft Defender;Scan network files;Baseline default;Yes
+Microsoft Defender;Turn on real-time protection;Baseline default;Yes
+Microsoft Defender;Scan scripts that are used in Microsoft browsers;Baseline default;Yes
+Microsoft Defender;Scan archive files;Baseline default;Yes
+Microsoft Defender;Turn on behavior monitoring;Baseline default;Yes
+Microsoft Defender;Turn on cloud-delivered protection;Baseline default;Yes
+Microsoft Defender;Scan incoming mail messages;Baseline default;Yes
+Microsoft Defender;Scan removable drives during a full scan;Baseline default;Yes
+Microsoft Defender;Block Office applications from injecting code into other processes;Baseline default;Block
+Microsoft Defender;Block Office applications from creating executable content;Baseline default;Block
+Microsoft Defender;Block all Office applications from creating child processes;Baseline default;Block
+Microsoft Defender;Block Win32 API calls from Office macro;Baseline default;Block
+Microsoft Defender;Block execution of potentially obfuscated scripts (js/vbs/ps);Baseline default;Block
+Microsoft Defender;Block JavaScript or VBScript from launching downloaded executable content;Baseline default;Block
+Microsoft Defender;Block executable content download from email and webmail clients;Baseline default;Block
+Microsoft Defender;Block credential stealing from the Windows local security authority subsystem (lsass.exe);Baseline default;Enable
+Microsoft Defender;Defender potentially unwanted app action;Baseline default;Block
+Microsoft Defender;Block untrusted and unsigned processes that run from USB;Baseline default;Block
+Microsoft Defender;Enable network protection;Baseline default;Enable
+Microsoft Defender;Defender sample submission consent type;Baseline default;Send safe samples automatically
+MS Security Guide;SMB v1 client driver start configuration;Baseline default;Disabled driver
+MS Security Guide;Apply UAC restrictions to local accounts on network logon;Baseline default;Enabled
+MS Security Guide;Structured exception handling overwrite protection;Baseline default;Enabled
+MS Security Guide;SMB v1 server;Baseline default;Disabled
+MS Security Guide;Digest authentication;Baseline default;Disabled
+MSS Legacy;Network IPv6 source routing protection level;Baseline default;Highest protection
+MSS Legacy;Network IP source routing protection level;Baseline default;Highest protection
+MSS Legacy;Network ignore NetBIOS name release requests except from WINS servers;Baseline default;Enabled
+MSS Legacy;Network ICMP redirects override OSPF generated routes;Baseline default;Disabled
+Power;Require password on wake while on battery;Baseline default;Enabled
+Power;Require password on wake while plugged in;Baseline default;Enabled
+Power;Standby states when sleeping while on battery;Baseline default;Disabled
+Power;Standby states when sleeping while plugged in;Baseline default;Disabled
+Remote Assistance;Remote Assistance solicited;Baseline default;Disable Remote Assistance
+Remote Desktop Services;Remote desktop services client connection encryption level;Baseline default;High
+Remote Desktop Services;Block drive redirection;Baseline default;Enabled
+Remote Desktop Services;Block password saving;Baseline default;Enabled
+Remote Desktop Services;Prompt for password upon connection;Baseline default;Enabled
+Remote Desktop Services;Secure RPC communication;Baseline default;Enabled
+Remote Management;Block client digest authentication;Baseline default;Enabled
+Remote Management;Block storing run as credentials;Baseline default;Enabled
+Remote Management;Client basic authentication;Baseline default;Disabled
+Remote Management;Basic authentication;Baseline default;Disabled
+Remote Management;Client unencrypted traffic;Baseline default;Disabled
+Remote Management;Unencrypted traffic;Baseline default;Disabled
+Remote Procedure Call;RPC unauthenticated client options;Baseline default;Authenticated
+Search;Disable indexing encrypted items;Baseline default;Yes
+Smart Screen;Turn on Windows SmartScreen;Baseline default;Yes
+Smart Screen;Block users from ignoring SmartScreen warnings;Baseline default;Yes
+System;System boot start driver initialization;Baseline default;Good unknown and bad critical
+Wi-Fi;Block Automatically connecting to Wi-Fi hotspots;Baseline default;Yes
+Wi-Fi;Block Internet sharing;Baseline default;Yes
+Windows Connection Manager;Block connection to non-domain networks;Baseline default;Enabled
+Windows Ink Workspace;Ink Workspace;Baseline default;Enabled
+Windows PowerShell;PowerShell script block logging;Baseline default;Enabled
