@@ -30,17 +30,18 @@ Audit;System Audit Security State Change (Device);Baseline default;Success
 Audit;Audit Security System Extension (Device);Baseline default;Success
 Audit;System Audit System Integrity (Device);Baseline default;Success and Failure
 Auto Play;Auto play default auto run behavior;Baseline default;Do not execute
-Auto Play;uto play mode;Baseline default;Disabled
-Auto Play;lock auto play for non-volume devices;Baseline default;Enabled
+Auto Play;Auto play mode;Baseline default;Disabled
+Auto Play;Block auto play for non-volume devices;Baseline default;Enabled
 BitLocker;BitLocker removable drive policy;Baseline default;Configure
-BitLocker;lock write access to removable data-drives not protected by BitLocker;Baseline default;Yes
+BitLocker;Block write access to removable data-drives not protected by BitLocker;Baseline default;Yes
 Browser;Block Password Manager;Baseline default;Yes
-Browser;equire SmartScreen for Microsoft Edge Legacy;Baseline default;Yes
+Browser;Require SmartScreen for Microsoft Edge Legacy;Baseline default;Yes
 Browser;Block malicious site access;Baseline default;Yes
 Browser;Block unverified file download;Baseline default;Yes
 Browser;Prevent user from overriding certificate errors;Baseline default;Yes
 Connectivity;Configure secure access to UNC paths;Baseline default;Configure Windows to only allow access to the specified UNC paths after fulfilling additional security requirements
-Connectivity;Hardened UNC path list;Baseline default;Not configured by default.
+Connectivity;Hardened UNC path list;Baseline default;"\\*\SYSVOL
+\\*\NETLOGON"
 Connectivity;Block downloading of print drivers over HTTP;Baseline default;Enabled
 Connectivity;Block Internet download for web publishing and online ordering wizards;Baseline default;Enabled
 Credentials Delegation;Remote host delegation of non-exportable credentials;Baseline default;Enabled
